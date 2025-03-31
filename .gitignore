@@ -2,3 +2,6 @@
 /Downloads/*
 /logs/*
 /TORRENT_FILES/*
+
+*.pyc
+__pycache__/
