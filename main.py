@@ -56,6 +56,13 @@ def scrape_year(year: int, q:str) -> int:
     return books_taken
 
 def main():
+    
+    os.makedirs('Downloads', exist_ok=True)
+    os.makedirs('Dicts', exist_ok=True)
+    os.makedirs('logs', exist_ok=True)
+    os.makedirs('TORRENT_FILES', exist_ok=True)
+
+
     q = ""
     # Define the range of years to scrape
     start_year = 2024
