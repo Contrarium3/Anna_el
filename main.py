@@ -59,7 +59,7 @@ def main():
     q = ""
     # Define the range of years to scrape
     start_year = 2024
-    end_year = 1900
+    end_year = 1990
     
     # Number of worker threads
     num_workers = 3
