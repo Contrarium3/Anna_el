@@ -1,0 +1,18 @@
+Parallel Scraping with split: oficial year the book was published
+
+
+1) .parts in downloads wtf???? -> do i need to downlaod them? if yes watch claudde  answer to to it!!
+
+______________________________________________________________________________________________
+
+2) check if i can extract text from  epub books
+
+
+
+!!!!!!!!!!!!!!!!!
+REMEMBER: 
+.tar skipparw (blepoume sto telos)-> TOrrent is Tar error
+.tar sto torrent file inside -> TOrrent exceeds maximum size error
+
+na balw download_limit_Speed sta torrents wste na diaireitai kala me to max_workers?
+

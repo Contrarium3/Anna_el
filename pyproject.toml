@@ -1,0 +1,30 @@
+[project]
+name = "anna"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Contrarium3",email = "contrarium3@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)",
+    "selenium (>=4.29.0,<5.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)",
+    "libtorrent (>=2.0.11,<3.0.0)",
+    "torrentool (>=1.2.0,<2.0.0)",
+    "bencode-py (>=4.0.0,<5.0.0)",
+    "python-magic (>=0.4.27,<0.5.0)",
+]
+
+[tool.poetry]
+packages = [{include = "anna", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
